@@ -166,6 +166,7 @@ a:hover {
 }
 
 .logo {
+  float: left;
   height: 4rem;
   margin-bottom: 0;
 }
