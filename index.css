@@ -43,6 +43,10 @@ a:hover {
   text-decoration: underline;
 }
 
+.content {
+  max-width: 90%;
+}
+
 .header {
   margin-bottom: 2rem;
 }
@@ -58,7 +62,7 @@ a:hover {
   margin-bottom: 0;
 }
 
-.content {
+.banner {
   height: 100%;
   margin-bottom: 2rem;
   text-align: left;
@@ -71,13 +75,13 @@ a:hover {
   -o-background-size: auto 100%;
 }
 
-.content h1 {
+.banner h1 {
   font-weight: bold;
   font-size: 6rem;
   color: #b84342;
 }
 
-.content h2 {
+.banner h2 {
   margin-bottom: 4rem;
   font-weight: bold;
   font-size: 4rem;
