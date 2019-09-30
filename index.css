@@ -13,21 +13,13 @@ html, body {
 }
 
 body {
-  font-family: 'Helvetica', sans-serif;
-  color: #2c2c2c;
   display: flex;
   display: -ms-flexbox;
   align-items: center;
-  background-image: url(banner-break-loop.jpg) ;
-  background-position: top right;
-  background-repeat:  no-repeat;
-  background-attachment: fixed;
-  background-size:  auto 100%;
-  -webkit-background-size: auto 100%;
-  -moz-background-size: auto 100%;
-  -o-background-size: auto 100%;
   text-shadow: none;
   box-shadow: none;
+  font-family: 'Helvetica', sans-serif;
+  color: #2c2c2c;
 }
 
 img {
@@ -37,16 +29,14 @@ img {
 
 ::selection {
   text-shadow: none;
-  box-shadow: none;
-  color: #a7dce0;
-  background-color: #000;
+  color: #2c2c2c;
+  background-color: #f5f5f5;
 }
 
 ::-moz-selection {
   text-shadow: none;
-  box-shadow: none;
-  color: #a7dce0;
-  background-color: #000;
+  color: #2c2c2c;
+  background-color: #f5f5f5;
 }
 
 h1 {
@@ -207,6 +197,17 @@ a:hover {
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
+}
+
+.banner-image {
+  background-image: url(banner-break-loop.jpg) ;
+  background-position: top right;
+  background-repeat:  no-repeat;
+  background-attachment: fixed;
+  background-size:  auto 100%;
+  -webkit-background-size: auto 100%;
+  -moz-background-size: auto 100%;
+  -o-background-size: auto 100%;
 }
 
 @media (min-width: 768px) {
