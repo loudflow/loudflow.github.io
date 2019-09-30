@@ -40,8 +40,6 @@ a {
 
 a:focus,
 a:hover {
-  color: #b84342;
-  opacity: 0.9;
   text-decoration: underline;
 }
 
@@ -75,6 +73,7 @@ a:hover {
 }
 
 .content h2 {
+  margin-bottom: 4rem;
   font-weight: bold;
   font-size: 4rem;
   color: #1a1a1a;
