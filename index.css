@@ -130,10 +130,6 @@ a:hover {
   margin-bottom: 2rem;
 }
 
-.masthead-brand {
-  margin-bottom: 0;
-}
-
 .nav-masthead .nav-link {
   padding: .25rem 0;
   font-weight: 700;
@@ -156,22 +152,13 @@ a:hover {
   border-bottom-color: #fff;
 }
 
-@media (min-width: 48em) {
-  .masthead-brand {
-    float: left;
-  }
-  .nav-masthead {
-    float: right;
-  }
-}
-
-
 /*
  * Cover
  */
 .cover {
   height: 100%;
   margin-bottom: 2rem;
+  text-align: left;
 }
 .cover .btn-lg {
   padding: .75rem 1.25rem;
@@ -180,6 +167,7 @@ a:hover {
 
 .logo {
   height: 2rem;
+  margin-bottom: 0;
 }
 
 
