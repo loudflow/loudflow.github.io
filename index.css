@@ -53,6 +53,11 @@ a:hover {
   margin-bottom: 0;
 }
 
+.subscribe {
+  float: right;
+  margin-bottom: 0;
+}
+
 .content {
   height: 100%;
   margin-bottom: 2rem;

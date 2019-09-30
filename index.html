@@ -25,27 +25,27 @@
     </head>
 
     <body>
-        <div class="d-flex w-100 h-100 p-3 mx-auto flex-column container-fluid">
+        <div class="d-flex w-100 h-100 p-3 mx-auto flex-column">
             <header class="header">
                 <div class="inner">
                     <img class="logo" src="loudflow-black.png" alt="loudflow-logo">
+                    <form class="subscribe">
+                        <div class="form-row">
+                            <div class="col-auto">
+                                <label class="sr-only" for="email">Email Address</label>
+                                <input type="text" class="form-control" id="email" placeholder="Keep me updated...">
+                            </div>
+                            <div class="col-auto">
+                                <button type="submit" class="btn btn-secondary">Subscribe</button>
+                            </div>
+                        </div>
+                    </form>
                 </div>
             </header>
 
             <main role="main" class="inner content">
                 <h1>Drop everything...</h1>
                 <h2>We're almost ready.</h2>
-                <form>
-                    <div class="form-row">
-                        <div class="col-auto">
-                            <label class="sr-only" for="email">Email Address</label>
-                            <input type="text" class="form-control" id="email" placeholder="Keep me updated...">
-                        </div>
-                        <div class="col-auto">
-                            <button type="submit" class="btn btn-secondary">Subscribe</button>
-                        </div>
-                    </div>
-                </form>
             </main>
 
             <footer class="footer">
