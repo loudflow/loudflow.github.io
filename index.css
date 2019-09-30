@@ -68,6 +68,11 @@ a:hover {
   -o-background-size: auto 100%;
 }
 
+.content h1 {
+  font-weight: bold;
+  font-size: 4rem;
+}
+
 .footer {
   text-align: right;
 }
