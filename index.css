@@ -18,7 +18,7 @@ body {
   align-items: center;
   background-color: #f5f5f5;
   background-image: url(banner-break-loop.jpg) ;
-  background-position: center center;
+  background-position: top right;
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size:  cover;
