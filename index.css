@@ -62,8 +62,11 @@ a:hover {
   margin-top: 2rem;
 }
 
-.email {
+.col-email {
+  flex: 0 0 auto;
+  -ms-flex: 0 0 auto;
   width: 25rem;
+  max-width: 100%;
 }
 
 .banner {
