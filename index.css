@@ -59,7 +59,11 @@ a:hover {
 
 .subscribe {
   float: right;
-  margin-bottom: 0;
+  margin-top: 2rem;
+}
+
+.email {
+  width: 25rem;
 }
 
 .banner {
