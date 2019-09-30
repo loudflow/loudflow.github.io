@@ -108,17 +108,6 @@ a:hover {
   color: #6cc5cb;
 }
 
-/* Custom default button */
-.btn-secondary,
-.btn-secondary:hover,
-.btn-secondary:focus {
-  color: #333;
-  text-shadow: none; /* Prevent inheritance from `body` */
-  background-color: #fff;
-  border: .05rem solid #fff;
-}
-
-
 /*
  * Base structure
  */
@@ -167,7 +156,7 @@ a:hover {
 
 .logo {
   float: left;
-  height: 4rem;
+  height: 5rem;
   margin-bottom: 0;
 }
 
