@@ -183,6 +183,7 @@ a:hover {
  * Footer
  */
 .mastfoot {
+  text-align: right;
 }
 
 .bd-placeholder-img {
