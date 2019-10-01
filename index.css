@@ -46,8 +46,8 @@ a:hover {
 
 .btn-secondary {
   color: #f5f5f5;
-  background-color: #1a1a1a;
-  border-color: #1a1a1a;
+  background-color: #e55e52;
+  border-color: #e55e52;
   text-shadow: none;
 }
 
@@ -55,8 +55,8 @@ a:hover {
 .btn-secondary:focus,
 .btn-secondary:active {
   color: #f5f5f5;
-  background-color: rgba(26, 26, 26, 0.75);
-  border-color: rgba(26, 26, 26, 0.75);
+  background-color: rgba(229, 94, 82, 0.5);
+  border-color: rgba(229, 94, 82, 0.5);
   text-shadow: none;
 }
 
